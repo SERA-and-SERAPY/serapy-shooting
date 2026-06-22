@@ -189,11 +189,10 @@ function drawTitle(){
   button("",canvas.width*0.52,canvas.height*0.687,canvas.width*0.30,h,()=>scene="high",true);
   button("",x,canvas.height*0.744,w,h,()=>scene="how",true);
 
-  rrect(canvas.width*0.12,canvas.height*0.89,canvas.width*0.76,canvas.height*0.07,18,"rgba(255,255,255,.90)");
-  txt("現在の称号",canvas.width/2,canvas.height*0.912,12);
-  txt(save.currentTitle,canvas.width/2,canvas.height*0.928,15);
-  txt(`称号達成率：${ownedCount()} / 30`,canvas.width/2,canvas.height*0.945,12);
-  txt("Ver0.32α GPTと作っているです！🐣✨",canvas.width/2,canvas.height-16,12);
+  rrect(canvas.width*0.12,canvas.height*0.915,canvas.width*0.76,canvas.height*0.07,18,"rgba(255,255,255,.90)");
+  txt("現在の称号",canvas.width/2,canvas.height*0.935,12);
+  txt(save.currentTitle,canvas.width/2,canvas.height*0.953,15);
+  txt(`称号達成率：${ownedCount()} / 30`,canvas.width/2,canvas.height*0.970,12);
 }
 
 function drawHow(){
