@@ -18,7 +18,7 @@ function resize(){canvas.width=innerWidth;canvas.height=innerHeight;}
 resize();addEventListener("resize",resize);
 
 const titleImg=new Image();
-titleImg.src="title.png";
+titleImg.src="title.png?v=2";
 
 function drawCoverImage(img){
   const scale=Math.max(canvas.width/img.width,canvas.height/img.height);
